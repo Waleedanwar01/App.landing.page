@@ -1,0 +1,35 @@
+@media only screen and (max-width:800px) {
+    .main-btn {
+        left: 180px;
+    }
+
+    .retina {
+        position: relative;
+        left: 180px;
+    }
+    .main-btn-2{
+        left: 0;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .main-btn {
+        position: relative;
+        left: 70px;
+    }
+
+    .retina {
+        position: relative;
+        left: 0px;
+    }
+
+    .main-btn-2 {
+        position: relative;
+        left: -10px;
+    }
+
+    .info,
+    p {
+        text-align: center;
+    }
+}
